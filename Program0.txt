@@ -1,0 +1,6 @@
+mvi a 18
+mvi c a2
+mvi d 13
+add c
+add d
+end

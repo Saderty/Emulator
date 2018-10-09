@@ -1,0 +1,10 @@
+lda 8300
+mov b a
+sub a
+lxi 8400
+add m
+dcr b
+jz 8211
+inx h
+jmp 8208
+end
