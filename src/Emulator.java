@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Emulator {
     private static Robot robot;
-    private static int sleep = 20;
+    private static int sleep = 30;
 
     static {
         try {
@@ -134,13 +134,8 @@ public class Emulator {
     }
 
     public static void main(String[] args) throws IOException, InterruptedException, AWTException {
-        String path = Emulator.class.getProtectionDomain().getCodeSource().getLocation().getPath();
-        path=System.getProperty("user.dir");
-        File file = new File(path);
-        // File programFile =
-        //         new File("F:\\BULAT\\#Projects\\Java\\Emulator\\Program.txt");
-        File programFile =new File("Program.txt");
-
+        //new File("F:\\BULAT\\#Projects\\Java\\Emulator\\Program.txt");
+        File programFile = new File("Program.txt");
 
 
         String[] program = readFile(programFile);
@@ -167,7 +162,6 @@ public class Emulator {
             }
         }
 
-
         //Set scripts
         for (int i = 0; i < program.length; i++) {
             if (program[i] != null) {
@@ -179,17 +173,11 @@ public class Emulator {
                 }
             }
         }
-        //
 
         program = Interpreter.Translator(program);
 
-        Thread.sleep(5000);
+        Thread.sleep(3000);
         setProgram(program, startAddr);
-
-        //setAddr(8300, "91");
-        //setAddr(8301, "25");
-        //setAddr(8400, "31");
-        //setAddr(8401, "74");
 
         //Release Scripts
         for (String aScript : script) {

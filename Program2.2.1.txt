@@ -1,0 +1,14 @@
+﻿-Program 2.2.1
+
+start 8200
+
+lxi h 872d
+mvi m oa
+mov a m
+lxi h 80a4
+mvi m 21
+add m
+lxi h 2e85
+mvi m 34
+xra m
+end

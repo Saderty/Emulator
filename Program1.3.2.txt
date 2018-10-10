@@ -1,0 +1,24 @@
+-Program 3.2
+
+start 8200
+
+mvi l 05
+lxi b 8300
+lxi d 8400
+ldax b
+cpi 30
+jc 8215
+cpi 80
+jnc 8215
+stax d
+inx d
+inx b
+dcr l
+jnz 8208
+end
+
+addr 8300 10
+addr 8301 40
+addr 8302 50
+addr 8303 79
+addr 8304 aa

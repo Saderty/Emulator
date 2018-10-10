@@ -1,0 +1,20 @@
+-Program 3.1
+
+start 8500
+
+mvi d 04
+lxi h 8200
+lxi b 8300
+mov a m
+stax b
+dcr d
+jz 8513
+inx h
+inx b
+jmp 8508
+end
+
+addr 8200 10
+addr 8201 2b
+addr 8202 54
+addr 8203 ea

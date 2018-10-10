@@ -1,0 +1,24 @@
+﻿-Program 2.1.1
+
+start 8200
+
+lxi h 8300
+lxi d 8400
+mvi b 05
+mvi c 00
+inx h
+mov a m
+add c
+jpe 8213
+jmp 8215
+stax d
+inx d
+dcr b
+jnz 820a
+end
+
+addr 8300 10
+addr 8301 53
+addr 8302 d3
+addr 8303 99
+addr 8304 74

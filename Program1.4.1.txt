@@ -1,0 +1,20 @@
+-Program 4.1
+
+start 8200
+
+lxi sp 0bc0
+call 8207
+rst 1
+push
+push b
+push d
+push h
+mvi a 05
+mov b a
+mov e a
+mov h a
+pop h
+pop d
+pop b
+pop
+ret
