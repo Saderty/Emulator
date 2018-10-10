@@ -134,7 +134,6 @@ public class Emulator {
     }
 
     public static void main(String[] args) throws IOException, InterruptedException, AWTException {
-        //new File("F:\\BULAT\\#Projects\\Java\\Emulator\\Program.txt");
         File programFile = new File("Program.txt");
 
 
@@ -193,6 +192,7 @@ public class Emulator {
 
         toAddr(startAddr);
 
+        System.out.println("Created by Saderty\n");
         for (String aProgram : program) {
             System.out.println(aProgram);
         }
