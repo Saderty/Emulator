@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59b43d9b-b177-4c9c-ab67-5cb0939b32db" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Saderty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Saderty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Emulator_jar/Emulator.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Emulator/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Emulator/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Emulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Emulator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,24 +22,10 @@
       <file leaf-file-name="Emulator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Emulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="135" column="99" selection-start-line="135" selection-start-column="99" selection-end-line="135" selection-end-column="99" />
+            <state relative-caret-position="-2414">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +55,7 @@
       <file leaf-file-name="Command.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Command.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="17">
               <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
@@ -279,7 +260,7 @@
       <workItem from="1538942132849" duration="10349000" />
       <workItem from="1539008540644" duration="10344000" />
       <workItem from="1539105318365" duration="10945000" />
-      <workItem from="1539167863123" duration="7793000" />
+      <workItem from="1539167863123" duration="8989000" />
     </task>
     <task id="LOCAL-00001" summary="Add search process method">
       <created>1539170007818</created>
@@ -288,15 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539170007818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version : 1.0.0&#10;Type : Realise">
+      <created>1539185370954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539185370954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53785000" />
+    <option name="totallyTimeSpent" value="54981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="751" y="0" width="1176" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -312,7 +299,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21034482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21034482" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -337,7 +324,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add search process method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add search process method" />
+    <MESSAGE value="Version : 1.0.0&#10;Type : Realise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version : 1.0.0&#10;Type : Realise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -473,20 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Command.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -509,10 +483,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Program.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Command.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Emulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="135" column="99" selection-start-line="135" selection-start-column="99" selection-end-line="135" selection-end-column="99" />
+        <state relative-caret-position="-2414">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
